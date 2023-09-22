@@ -1,5 +1,5 @@
 #
-#  install defaultApplication
+#  install defaultApplication (aka Snoop)
 #
 #
 #
