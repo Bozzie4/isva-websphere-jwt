@@ -1,0 +1,4 @@
+FROM icr.io/appcafe/websphere-traditional:latest
+COPY --chown=was:root scripts/*.py /work/config/
+COPY --chown=was:root config/PASSWORD /tmp/PASSWORD
+RUN /work/configure.sh
